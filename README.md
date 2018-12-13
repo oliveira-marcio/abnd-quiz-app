@@ -18,4 +18,4 @@ Características:
 
 ## Copyright
 
-Esse projeto foi desenvolvido por Márcio Souza de Oliveira.
+Esse projeto foi desenvolvido por Márcio Souza de Oliveira em 08/09/2016.
