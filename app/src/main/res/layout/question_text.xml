@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="udacity.android.basics.com.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/progressBarTheme" />
+
+        <TextView
+            android:id="@+id/question_text_view"
+            style="@style/question_theme"
+            tools:text="1) Question" />
+
+        <EditText
+            android:id="@+id/answer_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_height"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@color/editTextBackground"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLines="9"
+            android:scrollbars="vertical"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="fsfasda asdsad asd asdasdasd asdasd asdasd asdas dasdasdsa asdasdsa aasdasd asdasdasd asdasdasd asdasdasdas asdasdasd asdasdasda  asdasdadasdasdasdsa dsadasdasdsa  asdasdasdasdsa " />
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/buttonTheme"
+            android:text="@string/next_button" />
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app primary, primary dark and accent colors -->
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <color name="colorAccent">#689F38</color>
+    <!-- buttons text color -->
+    <color name="buttonText">@android:color/white</color>
+    <!-- root view background color -->
+    <color name="appBackground">@android:color/white</color>
+    <!-- EditTexts background color -->
+    <color name="editTextBackground">#DCEDC8</color>
+</resources>

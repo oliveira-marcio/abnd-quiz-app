@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <!-- Buttons names -->
+    <string name="start_button">Start Quiz</string>
+    <string name="next_button">Next Question</string>
+    <string name="restart_button">Restart Quiz</string>
+
+    <!-- Toast errors -->
+    <string name="error_text">Please, input some answer</string>
+    <string name="error_radio">Please, select one answer</string>
+    <string name="error_check">Please, select at least one answer</string>
+
+    <!-- Finish layout static label -->
+    <string name="check_label">Check your answers:</string>
+
+    <!-- Finish layout greeting messages (first line) -->
+    <string name="hit_no_question">You\'ve missed all questions</string>
+    <string name="hit_one_question">You\'ve got one question</string>
+    <string name="hit_many_questions">You\'ve got ## questions</string>
+
+    <!-- Finish layout greeting messages (second line) -->
+    <string name="result_great">You\'re awesome!!</string>
+    <string name="result_medium">You were good!!</string>
+    <string name="result_bad">Keep practicing!!</string>
+
+    <!--
+    All questions titles, correct answers and respective options
+
+    Question titles should have item name like "question1_title", question2_title, etc
+    Question answers should have item name like "question1_answers", question2_answers, etc
+    Question options should have item name like "question1_option1", question1_option2, etc
+
+    For this app, total questions should be 10 and total options should be 4, except for free text
+    questions (there's no maximum restriction)
+
+    OBS: Don't enumerate question's titles since order of questions will be randomically sorted.
+
+    For free text questions, correct answer item should be the string "all" where each option item
+    provided is expected to be found in user answer no matter order they appears
+
+    For checkboxes questions, correct answers should be a comma-separeted string with numbers
+    representing the option index (0 is first). Example: "0,1", "1,2,3"
+
+    For radio buttons questions, correct answer is just the option index (0 is first).
+    -->
+    <string name="question1_title">We can arrange the views on screen with these following elements:</string>
+    <string name="question1_answers">0,1</string>
+    <string name="question1_option1">RelativeLayout</string>
+    <string name="question1_option2">LinearLayout</string>
+    <string name="question1_option3">Spinner</string>
+    <string name="question1_option4">EditText</string>
+
+    <string name="question2_title">Which view element can we use to allow the app user to select multiple options in a question?</string>
+    <string name="question2_answers">3</string>
+    <string name="question2_option1">RadioButton</string>
+    <string name="question2_option2">TextView</string>
+    <string name="question2_option3">Button</string>
+    <string name="question2_option4">CheckBox</string>
+
+    <string name="question3_title">In JAVA language, how can we repeat a block of code multiple times?</string>
+    <string name="question3_answers">1,2</string>
+    <string name="question3_option1">if(...){\n//code\n}</string>
+    <string name="question3_option2">for(...){\n//code\n}</string>
+    <string name="question3_option3">while(...){\n//code\n}</string>
+    <string name="question3_option4">switch(...){\n//code\n}</string>
+
+    <string name="question4_title">How can we access in JAVA code a view element from XML layout?</string>
+    <string name="question4_answers">all</string>
+    <string name="question4_option1">findViewById</string>
+
+    <string name="question5_title">We can use intents to our app encapsulate data to be handled by following situations:</string>
+    <string name="question5_answers">0,2,3</string>
+    <string name="question5_option1">Open a specified URL in a web browser</string>
+    <string name="question5_option2">Open an app in a friend\'s phone</string>
+    <string name="question5_option3">Send a SMS text to a person in a contact list</string>
+    <string name="question5_option4">Transfer data between app activities</string>
+
+    <string name="question6_title">What group of XML attributes are used to define most of View\'s size?</string>
+    <string name="question6_answers">all</string>
+    <string name="question6_option1">layout_width</string>
+    <string name="question6_option2">layout_height</string>
+
+    <string name="question7_title">In which XML resource we can define themes for views elements?</string>
+    <string name="question7_answers">2</string>
+    <string name="question7_option1">strings.xml</string>
+    <string name="question7_option2">values.xml</string>
+    <string name="question7_option3">styles.xml</string>
+    <string name="question7_option4">dimen.xml</string>
+
+    <string name="question8_title">Which methods are called when an activity starts?</string>
+    <string name="question8_answers">0,2</string>
+    <string name="question8_option1">onResume()</string>
+    <string name="question8_option2">onRestart()</string>
+    <string name="question8_option3">onCreate()</string>
+    <string name="question8_option4">onPause()</string>
+
+    <string name="question9_title">Mark the correct types that represent numeric variables:</string>
+    <string name="question9_answers">0,1,2</string>
+    <string name="question9_option1">int</string>
+    <string name="question9_option2">float</string>
+    <string name="question9_option3">double</string>
+    <string name="question9_option4">boolean</string>
+
+    <string name="question10_title">How can we show short pop-up messages in app?</string>
+    <string name="question10_answers">3</string>
+    <string name="question10_option1">Intent</string>
+    <string name="question10_option2">Fragment</string>
+    <string name="question10_option3">Activity</string>
+    <string name="question10_option4">Toast</string>
+</resources>

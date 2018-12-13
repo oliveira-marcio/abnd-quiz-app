@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/result_layout">
+
+    <ImageView
+        android:id="@+id/result1_image"
+        style="@style/result_icon"
+        tools:src="@drawable/ic_correct" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1_text_view"
+            style="@style/result_question"
+            tools:text="1) QUESTION" />
+
+        <TextView
+            android:id="@+id/answer1_text_view"
+            style="@style/result_answer"
+            tools:text="Answer" />
+
+    </LinearLayout>
+
+</LinearLayout>
